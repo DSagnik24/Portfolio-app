@@ -38,21 +38,41 @@ const Technologies = () => {
                 className="p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400" />
             </motion.div>
-            <div className="p-4">
+            <motion.div
+             initial="initial"
+             animate="animate"
+             variants={iconVariants(3)}
+             className="p-4">
                 <TbBrandNextjs className="text-7xl" />
-            </div>
-            <div className="p-4">
+            </motion.div>
+            <motion.div
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(5)}
+            className="p-4">
                 <SiMongodb className="text-7xl test-cyan-500" />
-            </div>
-            <div className="p-4">
+            </motion.div>
+            <motion.div 
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(2)}
+            className="p-4">
                 <DiRedis className="text-7xl text-red-700" />
-            </div>
-            <div className="p-4">
+            </motion.div>
+            <motion.div
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(6)}
+            className="p-4">
                 <FaNodeJs className="text-7xl text-green-500" />
-            </div>
-            <div className="p-4">
+            </motion.div>
+            <motion.div
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(6)}
+            className="p-4">
                 <BiLogoPostgresql className="text-7xl text-sky-700" />
-            </div>
+            </motion.div>
         </motion.div>
     </div>
   )
