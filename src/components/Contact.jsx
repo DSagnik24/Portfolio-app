@@ -9,7 +9,7 @@ const Contact = () => {
         initial={{opacity: 0, x: -100}}
         transition={{duration: 1}}
          className="my-10 text-center text-4xl">Get in Touch</motion.h2>
-        <div className="text-center tracking-tighter">
+        <motion.div className="text-center tracking-tighter">
             <p className="my-4">
                 {CONTACT.address}
             </p>
@@ -19,7 +19,7 @@ const Contact = () => {
             <p href="#" className="border-b">
                 {CONTACT.email}
             </p>
-        </div>
+        </motion.div>
       
     </div>
   )
