@@ -48,7 +48,7 @@ const Navbar = () => {
           <FaSquareXTwitter />
         </a>
         <a
-          href="https://leetcode.com/your-leetcode-profile"
+          href="https://leetcode.com/u/Sagnik_Dutta_10/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LeetCode"
