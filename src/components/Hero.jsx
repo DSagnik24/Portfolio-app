@@ -1,6 +1,7 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/image.png"
 import { HERO_CONTENT } from "../constants"
 import {motion} from "framer-motion"
+
 
 const containerVariants = {
     hidden: {opacity: 0 ,x: -100},
@@ -65,7 +66,7 @@ const Hero = () => {
                 </motion.p>
                 <motion.a
                 variants={childVariants}
-                href="/resume.pdf"
+                href="/assets/Sagnik_Dutta_CV_Jan.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
