@@ -58,7 +58,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
-    link: "https://sagnik-dutta.vercel.app/",
+    link: "https://portfolio-app-bice-beta.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap","Framer Motion" ],
