@@ -1,6 +1,7 @@
 import profilePic from "../assets/image.png"
 import { HERO_CONTENT } from "../constants"
 import {motion} from "framer-motion"
+import Sagnik_Dutta_CV_Jan from "../assets/Sagnik_Dutta_CV_Jan.pdf"
 
 
 const containerVariants = {
@@ -35,7 +36,7 @@ const Hero = () => {
             <div className="flex justify-center lg:p-8">
                 <motion.img 
                 src={profilePic} 
-                alt="Ravi Kumar" 
+                alt="Sagnik Dutta" 
                 className="border border-stone-900 rounded-3xl"
                 width={650}
                 height={650}
@@ -66,10 +67,10 @@ const Hero = () => {
                 </motion.p>
                 <motion.a
                 variants={childVariants}
-                href="/assets/Sagnik_Dutta_CV_Jan.pdf"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
-                download
+                download = "Sagnik_Dutta_CV_Jan.pdf"
                 className="bg-white rounded-full py-4 px-4 text-sm text-stone-800 mb-10">
                     Download Resume
                 </motion.a>
